@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 10px; /* Decreased padding */
+    margin-bottom: 10px; /* Space between sections */
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Start position */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transition effects */
+}
+
+/* Class to show the section */
+section.visible {
+    opacity: 1; /* Make section visible */
+    transform: translateY(0); /* Reset position */
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #f4f4f4;
+}
