@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio!</h1>
-    </header>
+    <div id="overlay"></div>
+    <div id="welcome-note">
+        <h2>Welcome to My Portfolio!</h2>
+    </div>
     
     <section id="user-info">
         <div class="user-info-container">
-            
             <div class="about-me">
                 <h2>Sai Surya Raj Gaddala</h2>
                 <p>B.Tech in Electronics and Communication Engineering</p>
                 <img src="profile.jpg" alt="Sai Surya Raj Gaddala's Photo" class="profile-photo">
                 <h3>About Me</h3>
-                <p>I am an aspiring engineer passionate about technology and innovation...</p> <!-- Add your "About Me" content here -->
+                <p>I am an aspiring engineer passionate about technology and innovation...</p>
             </div>
         </div>
     </section>
@@ -28,17 +28,18 @@
         <h2>Education</h2>
         <ul>
             <li>B.Tech in Electronics and Communication Engineering - Indian Institute of Information Technology, Sri City (2020–2024)</li>
-            <li>High School - Jupiter Junior College (2018–2020)</li>
+            <li>Intermediate - Jupiter Junior College (2018–2020)</li>
+            <li>SSC - Oxford Concept School (2017–2018)</li>
         </ul>
     </section>
 
     <section id="skills">
         <h2>My Skills</h2>
         <ul>
-            <li><strong>Languages:</strong> C, Verilog, Embedded C, Matlab, C++, Python, Java, SQL</li>
+            <li><strong>Programming Languages:</strong> C, Verilog, Embedded C, Matlab, C++, Python, Java, SQL</li>
             <li><strong>Embedded Boards:</strong> Arduino, ESP8266, Raspberry Pi, 8051</li>
             <li><strong>Databases:</strong> Firebase, MySQL</li>
-            <li><strong>Coursework:</strong> VLSI, Electronic Packaging, Digital System Design, Embedded Systems, IoT, Wireless Networks, CCN</li>
+            <!-- <li><strong>Coursework:</strong> VLSI, Electronic Packaging, Digital System Design, Embedded Systems, IoT, Wireless Networks, CCN</li> -->
             <li><strong>CAD Tools:</strong> Xilinx, QCA, LTspice, EAGLE</li>
         </ul>
     </section>
@@ -47,46 +48,52 @@
         <h2>Work Experience</h2>
         <ul>
             <li><strong>Dragonfly Test (June 2024 – Present)</strong> - Built and executed automated test scripts using Java and Selenium...</li>
-            <li><strong>APSIS Solutions (June 2023 – July 2023)</strong> - Designed a 16-bit RISC processor using Verilog HDL...</li>
-            <li><strong>MAVEN SILICON (May 2023 – June 2023)</strong> - Developed a reliable AHB-to-APB bridge using Verilog HDL...</li>
+            <li><strong>Apsis Solutions (June 2023 – July 2023)</strong> - Designed a 16-bit RISC processor using Verilog HDL...</li>
+            <li><strong>Maven Silicon (May 2023 – June 2023)</strong> - Developed a reliable AHB-to-APB bridge using Verilog HDL...</li>
         </ul>
     </section>
     
     <section id="projects">
         <h2>Projects</h2>
-    
         <div id="software">
             <h3>Software</h3>
             <ul>
-                <li><strong>Manual Testing of OpenCart E-Commerce Platform</strong>: Conducted extensive manual testing using JIRA for tracking defects and Microsoft Excel for managing test cases, ensuring functionality across browsers and devices.</li>
-                <li><strong>Bank Database Management System</strong>: Developed a system using SQL and MySQL to enhance operational efficiency with a normalized relational database schema, optimizing queries, and implementing triggers for data integrity.</li>
-                <li><strong>Airlines Reservation System</strong>: A C++ project that manages airplane seat reservations using OOP principles, handling tasks like reserving seats, checking schedules, and managing flights.</li>
+                <li><strong>Manual Testing of OpenCart E-Commerce Platform</strong>: Conducted extensive manual testing using JIRA for tracking defects...</li>
+                <li><strong>Bank Database Management System</strong>: Developed a system using SQL and MySQL to enhance operational efficiency...</li>
+                <li><strong>Airlines Reservation System</strong>: A C++ project that manages airplane seat reservations...</li>
             </ul>
         </div>
     
         <div id="vlsi">
             <h3>VLSI</h3>
             <ul>
-                <li><strong>Image Processing</strong>: Using Verilog HDL on FPGA, image processing applies algorithms for tasks like filtering and edge detection, enabling real-time applications like computer vision and medical imaging.</li>
-                <li><strong>PCB for Home Automation</strong>: Utilized EAGLE software to develop a PCB layout for Home Automation, enhancing convenience and energy efficiency with a single-board computer design.</li>
-                <li><strong>Energy Dissipation Analysis in Sequential Circuits</strong>: Designed sequential circuits using the QCA framework, such as the SR Latch and D Latch, examining thermal dissipation and demonstrating energy efficiency advantages over CMOS.</li>
+                <li><strong>Image Processing</strong>: Using Verilog HDL on FPGA...</li>
+                <li><strong>PCB for Home Automation</strong>: Utilized EAGLE software to develop a PCB layout...</li>
+                <li><strong>Energy Dissipation Analysis in Sequential Circuits</strong>: Designed sequential circuits using the QCA framework...</li>
             </ul>
         </div>
     
         <div id="iot">
             <h3>IoT</h3>
             <ul>
-                <li><strong>Health Monitoring System</strong>: A proof-of-concept device for real-time patient monitoring, detecting temperature and pulse rate using Embedded C, Firebase, MIT App, and Python.</li>
-                <li><strong>Machine Monitoring in Industries</strong>: A system that uses Embedded C, Firebase, MIT App, and Python to monitor and prevent issues in industrial machines caused by high temperatures, humidity, and pressure.</li>
-                <li><strong>Load Scheduler for Smart Grid</strong>: A project enabling two-way communication in smart grids using Embedded C to allow smart appliances to ease grid load and reduce energy costs.</li>
-                <li><strong>Gas Leakage Detection and Alert Alarm</strong>: An 8051 microcontroller-based system using Keil and Assembly language to detect gas leaks and trigger an alarm for safety.</li>
+                <li><strong>Health Monitoring System</strong>: A proof-of-concept device for real-time patient monitoring...</li>
+                <li><strong>Machine Monitoring in Industries</strong>: A system that uses Embedded C, Firebase, MIT App, and Python...</li>
+                <li><strong>Load Scheduler for Smart Grid</strong>: A project enabling two-way communication in smart grids...</li>
+                <li><strong>Gas Leakage Detection and Alert Alarm</strong>: An 8051 microcontroller-based system...</li>
             </ul>
         </div>
     </section>
     
+    <section id="publications">
+        <h2>Publications</h2>
+        <ul>
+            <li>Publication Title 1 - Journal/Conference Name, Year</li>
+            <li>Publication Title 2 - Journal/Conference Name, Year</li>
+            <!-- Add more publications as needed -->
+        </ul>
+    </section>
     
-    
-    
+
     <section id="certifications">
         <h2>Certifications</h2>
         <ul>
@@ -96,8 +103,7 @@
         </ul>
     </section>
     
-    
-    <section id="Achievements and Positions">
+    <section id="achievements">
         <h2>Achievements</h2>
         <ul>
             <li>Achievement 1</li>
@@ -127,6 +133,48 @@
         <p>AI Feature Space (to be added later)</p>
     </footer>
     
+    <!-- Scroll Up Button -->
+    <button class="scroll-up" style="display: none;">Top</button>
     <script src="script.js"></script>
+    <script>
+        // JavaScript for showing sections on scroll and handling scroll-up button
+        const sections = document.querySelectorAll('section');
+        const scrollUpBtn = document.querySelector('.scroll-up');
+
+        // Function to handle the visibility of sections
+        const handleScroll = () => {
+            const scrollPos = window.scrollY + window.innerHeight;
+
+            sections.forEach((section) => {
+                if (section.offsetTop < scrollPos) {
+                    section.classList.add('visible');
+                } else {
+                    section.classList.remove('visible');
+                }
+            });
+
+            // Show or hide the scroll-up button
+            scrollUpBtn.style.display = window.scrollY > 200 ? 'block' : 'none';
+        };
+
+        // Scroll to top function
+        scrollUpBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Event listeners for scrolling
+        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('load', handleScroll);
+        
+        // Show the welcome note and overlay
+        window.onload = () => {
+            document.getElementById('overlay').style.display = 'block';
+            document.getElementById('welcome-note').style.display = 'block';
+            setTimeout(() => {
+                document.getElementById('overlay').style.display = 'none';
+                document.getElementById('welcome-note').style.display = 'none';
+            }, 3000); // Adjust the duration as needed
+        };
+    </script>
 </body>
 </html>
